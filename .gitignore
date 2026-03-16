@@ -1,0 +1,16 @@
+# Secret keys - kabhi GitHub pe upload mat karna
+backend/.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Node modules - bohot badi hoti hai
+node_modules/
+
+# Vite build folder
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

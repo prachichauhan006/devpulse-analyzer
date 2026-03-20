@@ -3,7 +3,7 @@
 A full-stack web app that analyzes your GitHub repositories and shows commit activity, pull request stats, and code health score.
 
 ## 🚀 Live Demo
-> Login with your GitHub account to see real-time data from your repositories.
+> Login with your GitHub account to see real-time data from your repositories. 
 
 ## 🛠️ Tech Stack
 

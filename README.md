@@ -8,7 +8,7 @@ A full-stack web app that analyzes your GitHub repositories and shows commit act
 ## 🛠️ Tech Stack
 
 | Part | Technology |
-|------|-----------|
+|------|-----------|  
 | Frontend | React + Vite | 
 | Backend | Python + FastAPI |
 | Authentication | GitHub OAuth |

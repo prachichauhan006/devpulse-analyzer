@@ -25,7 +25,7 @@ A full-stack web app that analyzes your GitHub repositories and shows commit act
 - **Smart Insights** — automatic suggestions based on your repo data
 
 ## 📁 Project Structure
-```
+``` 
 devpulse-analyzer/
 ├── backend/
 │   ├── main.py        # FastAPI server — GitHub OAuth + data endpoints

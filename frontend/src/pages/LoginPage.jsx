@@ -119,7 +119,7 @@ export default function LoginPage() {
           </p>
 
           {/* GitHub Login Button */}
-          <a href="https://devpulse-backend-uqdz.onrender.com/auth/login">
+          <a href="https://devpulse-backend-uqdr.onrender.com/auth/login">
             <button style={{
               width: '100%', padding: '16px 32px',
               background: 'linear-gradient(135deg, #7c6dfa, #6055e0)',

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
-const API = 'http://localhost:8000'
+const API = 'https://devpulse-backend-uqdz.onrender.com'
 
 // Custom tooltip for chart
 function ChartTooltip({ active, payload, label }) {

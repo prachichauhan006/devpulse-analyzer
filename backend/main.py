@@ -14,7 +14,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://devpulse-analyzer.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -45,7 +45,7 @@ async def callback(code: str = Query(...)):
     access_token = token_data.get("access_token")
     if not access_token:
         raise HTTPException(status_code=400, detail="Failed to get access token")
-    return RedirectResponse(f"http://localhost:5173/dashboard?token={access_token}")
+    return RedirectResponse(f"https://devpulse-analyzer.vercel.app/dashboard?token={access_token}")
 
 # Fetch logged-in user info
 @app.get("/user")

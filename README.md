@@ -88,5 +88,5 @@ http://localhost:5173
 - `.env` file is never uploaded to GitHub
 
 ## 👩‍💻 Developer
-**Prachi Chauhan** —  
+**Prachi Chauhan** —  **Full Stack Developer • DSA Enthusiast • Open to Internships 2026**
 
